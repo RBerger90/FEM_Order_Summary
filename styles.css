@@ -1,0 +1,50 @@
+
+
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#main{
+    text-align: center;
+    width: 450px;
+    height: 700px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.imtop {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+p{
+    display: inline-block;
+    width: 270px;
+}
+
+#pricing{
+    display: inline-block;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+    width: 355px;
+}
+
+
+#stonks{
+    display: inline-block;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(245, 75%, 52%);
+    height: 40px;
+    width: 355px;
+}
